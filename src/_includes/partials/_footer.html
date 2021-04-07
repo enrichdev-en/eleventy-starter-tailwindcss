@@ -1,0 +1,55 @@
+<footer class="bg-white border-t border-gray-200 shadow">
+  <div
+    class="container max-w-5xl mx-auto flex py-8 flex-col md:flex-row text-center md:items-end"
+  >
+    <div class="w-full mx-auto flex flex-wrap md:my-4">
+      <div class="flex w-full md:w-2/3 flex-col">
+        <div class="md:text-left">
+          <h3 class="font-bold text-gray-900">About</h3>
+          <p class="pt-4 text-gray-600 text-sm">
+            This site is built with Tailwindcss, Eleventy SSG and Netlify.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex mx-auto flex-col align-center w-full md:w-2/3 items-center md:items-start py-5 md:py-0"
+    >
+      <a href="/">
+        <img
+          class="h-12 md:h-20"
+          src="{{ site.baseurl }}/assets/"
+          alt=""
+          title="Logo"
+        />LOGO
+      </a>
+    </div>
+    <div class="flex flex-col w-full md:w-1/2 md:text-right">
+      <div class="text-gray-600">
+        <a href="https://github.com/"
+          ><i class="fab fa-github fa-lg mx-1 hover:text-blue-600"></i
+        ></a>
+        <a href="https://twitter.com/"
+          ><i class="fab fa-twitter fa-lg mx-1 hover:text-blue-600"></i
+        ></a>
+        <a href="https://instagram.com/"
+          ><i class="fab fa-instagram fa-lg mx-1 hover:text-blue-600"></i
+        ></a>
+        <a href="https://www.linkedin.com/"
+          ><i class="fab fa-linkedin fa-lg mx-1 hover:text-blue-600"></i
+        ></a>
+        <div class="my-4">
+          <p class="font-bold text-gray-900">Lorem, ipsum &#169; 2021</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    delay: 100, // values from 0 to 3000, with step 50ms
+    duration: 800, // values from 0 to 3000, with step 50ms
+    easing: "ease-out", // default easing for AOS animations
+  });
+</script>
