@@ -13,7 +13,7 @@ module.exports = function (eleventyConfig) {
   if (process.env.NODE_ENV === "production") {
     // minify html for production
     eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
-      if (outputPath.endsWith(".html")) {
+      if (outputPath.endsWith(".html") || outputPath.endsWith(".md")) {
         return htmlmin.minify(content, {
           collapseWhitespace: true,
           removeComments: true,

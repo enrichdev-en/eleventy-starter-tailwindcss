@@ -7,14 +7,7 @@
     x-data="{ mobileMenuOpen : false }"
     class="md:mx-20 flex flex-wrap flex-row justify-between md:items-center md:space-x- bg-white py-6 px-6 relative"
   >
-    <a href="/" class="block">
-      <img
-        class="h-10 md:h-14"
-        src="{{ site.baseurl }}/assets"
-        alt=""
-        title="logo"
-      />LOGO
-    </a>
+    <a href="/" rel="home" class="text-lg font-bold leading-tight">LOGO</a>
     <button
       @click="mobileMenuOpen = !mobileMenuOpen"
       class="inline-block md:hidden w-8 h-8 bg-gray-200 text-gray-600 p-1"

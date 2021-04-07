@@ -6,15 +6,15 @@ pageTitle: Blog
 <div class="md:px-20 px-3 md:py-10 py-5 bg-gray-100">
   <div class="md:mx-32 mx-auto">
     <h1 class="font-bold text-2xl text-red-50md:text-2xl text-gray-700">
-      Below are some of my posts:
+      Blog posts:
     </h1>
     {%- for post in collections.posts reversed-%}
 
     <div class="p-6 my-6 bg-white rounded-md shadow-md" data-aos="flip-up">
-      <h2
-        class="py-1 text-gray-600 text-lg md:text-2xl hover:underline hover:text-blue-600"
-      >
-        <a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
+      <h2 class="py-1 text-gray-600 text-lg md:text-2xl">
+        <a class="hover:underline hover:text-blue-600" href="{{ post.url }}"
+          >{{ post.data.pageTitle }}</a
+        >
       </h2>
       <hr />
       <p class="py-2 px-1 text-xs italic">{{ post.date | date: "%Y-%m-%d" }}</p>
