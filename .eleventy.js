@@ -2,12 +2,6 @@ const htmlmin = require("html-minifier");
 module.exports = function (eleventyConfig) {
   // Copy `src/assets/` to `_site/assets`
   eleventyConfig.addPassthroughCopy("src/assets");
-  // Parse excerpts from content
-  eleventyConfig.setFrontMatterParsingOptions({
-    excerpt: true,
-    // Optional, default is "---"
-    excerpt_separator: "<!-- excerpt -->",
-  });
 
   // Check environment
   if (process.env.NODE_ENV === "production") {
