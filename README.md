@@ -2,7 +2,7 @@
 
 
 
-Site Demo: <>
+Site Demo: <https://eleventy-starter-template.netlify.app>
 
 This Eleventy starter template is build with the following tools:
 
