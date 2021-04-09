@@ -4,6 +4,8 @@
 
 Site Demo: <https://eleventy-starter-template.netlify.app>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/32fff0fe-86bc-4f08-84b0-e3e3f70238da/deploy-status)](https://app.netlify.com/sites/eleventy-starter-template/deploys)
+
 This Eleventy starter template is build with the following:
 
 - [Eleventy](https://www.11ty.dev/) - Static site generator and templating
