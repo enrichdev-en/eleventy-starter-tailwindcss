@@ -123,5 +123,3 @@ Configuration files:
 ---
 
 Made by Eric @ Enrichdev
-
-Feel free to clone, fork and give some feedback. Star if you like it.
